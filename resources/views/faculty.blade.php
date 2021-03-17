@@ -8,9 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-<center>
-    <div class="container">
-    <div class="row">
+<div class="container">
+<div class="row">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Student</a>
@@ -21,12 +20,12 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         
         <li class="nav-item">
-          <a class="nav-link" href="/faculty">Faculty</a>
+          <a class="nav-link active" aria-current="page" href="/faculty">Faculty</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/contact">Contact</a>
         </li>
-      
+        
     </div>
   </div>
 </nav>
@@ -35,15 +34,23 @@
             <div class="col">
                 <table class="table table-borderless"  >
                     <tr>
-                        <td>Name</td>
+                        <td>Faculty Name</td>
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td>Roll no</td>
+                        <td>Department</td>
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td>Admission number</td>
+                        <td>Address</td>
+                        <td><input type="textarea" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Phone number</td>
+                        <td><input type="text" class="form-control"></td>
+                    </tr>
+                    <tr>
+                        <td>Educational qualification</td>
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
@@ -58,6 +65,5 @@
             </div>
         </div>
     </div>
-</center>
 </body>
-</html> 
+</html>

@@ -8,9 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-<center>
-    <div class="container">
-    <div class="row">
+<div class="container">
+<div class="row">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Student</a>
@@ -19,14 +18,14 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
+    
         <li class="nav-item">
           <a class="nav-link" href="/faculty">Faculty</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link  active" aria-current="page" href="/contact">Contact</a>
         </li>
-      
+        
     </div>
   </div>
 </nav>
@@ -39,15 +38,11 @@
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td>Roll no</td>
+                        <td>Message</td>
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
-                        <td>Admission number</td>
-                        <td><input type="text" class="form-control"></td>
-                    </tr>
-                    <tr>
-                        <td>College</td>
+                        <td>Phone number</td>
                         <td><input type="text" class="form-control"></td>
                     </tr>
                     <tr>
@@ -58,6 +53,5 @@
             </div>
         </div>
     </div>
-</center>
 </body>
-</html> 
+</html>
